@@ -1,4 +1,4 @@
-import type { Button } from "~/common/components/ui/button";
+import { Button } from "~/common/components/ui/button";
 
 
 export default function HomePage() {
@@ -9,8 +9,8 @@ export default function HomePage() {
         Welcome to WeMake, your platform for creating amazing things.
       </p>
       <div className="flex gap-4">
-        <button className="default">Get Started</button>
-        <button className="outline">Learn More</button>
+        <Button className="default">Get Started</Button>
+        <Button className="outline">Learn More</Button>
       </div>
     </main>
   );
